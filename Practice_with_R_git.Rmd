@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{include=FALSE}
 
 library(palmerpenguins)
 head(penguins)
 ```
+
+Now we'll attempt to plot the data
