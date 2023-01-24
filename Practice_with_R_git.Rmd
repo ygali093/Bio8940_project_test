@@ -1,0 +1,20 @@
+---
+title: "Practice with git"
+author: "Yannick G"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{include=FALSE}
+
+library(palmerpenguins)
+head(penguins)
+```
+
+Now we'll attempt to plot the data
